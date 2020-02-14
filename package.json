@@ -1,0 +1,30 @@
+{
+  "name": "car-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "expressjs": "^1.0.1",
+    "firebase-admin": "^8.9.2"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
